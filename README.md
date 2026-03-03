@@ -85,10 +85,8 @@
 
 Я открыт к предложениям о **стажировке** или позиции **Junior Python Developer**.
 
-| 📧 Email | [твой email] |
+| 📧 Email | [rabota.adsgroup@gmail.com] |
 |----------|--------------|
-| 💬 Telegram | [@твой_юзернейм] |
-| 💼 LinkedIn | [ссылка] |
 | 🐙 GitHub | [RomanShe19](https://github.com/RomanShe19) |
 
 > 🚀 *Готов выполнить тестовое задание или обсудить, как мой опыт может быть полезен вашей команде.*
