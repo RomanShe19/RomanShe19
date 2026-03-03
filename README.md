@@ -1,151 +1,100 @@
 # Roman Shemetov
 
-# RomanShe19
+### Python Developer | Vibecode Methodology | AI & Automation
 
-Vibe Code и Python-разработчик, ориентированный на backend-разработку, автоматизацию, AI-инструменты и Telegram-экосистему.
-Создаю сервисы, которые объединяют асинхронный Python, внешние API, LLM и прикладные интерфейсы (CLI, Telegram, Web).
-
----
-
-## 🧑‍💻 Обо мне
-
-- Vibe Code Python-разработчик с фокусом на backend и системную архитектуру
-- Основные направления: **AI-ассистенты**, **Telegram-боты**, **API-сервисы**, **автоматизация**
-- Опыт работы с **асинхронным Python**, LLM-интеграциями и агентными системами
-- Проектирую инструменты для генерации кода, обработки данных и поддержки пользовательских сценариев
-- Уделяю внимание структуре проектов, воспроизводимости и качественной документации
+> 🎯 *Focused on intensive learning & pet-projects. Создаю backend-сервисы и AI-инструменты, где чистая архитектура встречается с практической пользой.*
 
 ---
 
 ## 🛠 Технологический стек
 
-**Языки и основы**
-- Python 3.x (async / sync)
-- SQL
-
-**Backend и фреймворки**
-- FastAPI
-- aiogram 3.x
-- Telethon
-- SQLAlchemy
-
-**AI / LLM**
-- LangChain
-- OpenAI / OpenAI-совместимые API (через ProxyAPI)
-- Prompt Engineering
-- Agent-based архитектуры
-- Генерация текста, изображений и видео (DALL·E, Sora)
-
-**Парсинг и автоматизация**
-- Playwright
-- curl-cffi
-- BeautifulSoup
-
-**Базы данных**
-- PostgreSQL
-- SQLite
-
-**Инфраструктура и инструменты**
-- Docker, docker-compose
-- GitHub Actions
-- Grafana, Loki, Promtail
-- CLI-интерфейсы
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AsyncIO-✅-000000?style=flat" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-🦜🔗-000000?style=flat" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" />
+</p>
 
 ---
 
 ## ⭐ Избранные проекты
 
-### 🔹 AI Bot Generator (LangChain + aiogram)
-**Генерация Telegram-ботов по текстовому техническому описанию**
+### 🔹 [AI Bot Generator](https://github.com/RomanShe19/telegram_bot_generator)
+**Проблема:** Рутинная разработка типовых ботов отнимает время.  
+**Решение:** 5-этапный LLM-пайплайн на LangChain, который превращает текстовое ТЗ в готовый код на aiogram 3.x с валидацией синтаксиса и структуры.  
+*Stack: LangChain, ProxyAPI, aiogram 3.x, Pydantic*
 
-- Многоэтапная LLM-цепочка: анализ → подбор инструментов → проектирование структуры → генерация → валидация кода
-- Генерация готового Python-кода под aiogram 3.x
-- Проверка синтаксиса, импортов и структуры запуска
-- Поддержка конфигурации через переменные окружения
+### 🔹 [AI Agent with Tools](https://github.com/RomanShe19/AI_Agent_with_tools)
+**Проблема:** Локальные AI-ассистенты часто ограничены «болтовней» без доступа к внешним данным.  
+**Решение:** Агент с системой инструментов (Web Search, Weather, Crypto, Files, Terminal) и двойным интерфейсом (CLI + Telegram). Реализована контекстная память и логирование действий.  
+*Stack: LangChain, OpenAI API, aiogram, duckduckgo-search*
 
-➡️ https://github.com/RomanShe19/telegram_bot_generator
+### 🔹 [Parser + Telegram Bot](https://github.com/RomanShe19/Parser)
+**Проблема:** Сбор данных с сайтов, защищённых от ботов, требует обхода антидетект-механизмов.  
+**Решение:** Асинхронный парсер с `curl-cffi` и `Playwright` для эмуляции реального браузера. Управление и просмотр результатов — через Telegram-бота. Полная изоляция в Docker.  
+*Stack: asyncio, Playwright, curl-cffi, aiogram 3.x, SQLite, Docker*
 
----
+### 🔹 [Monitoring Stack](https://github.com/RomanShe19/monitoring)
+**Проблема:** Понимание observability критично для production-разработки, но редко встречается в учебных проектах.  
+**Решение:** Развёрнутый стек Grafana + Loki + Promtail для сбора, визуализации и анализа логов. Демонстрирует подход к отладке и мониторингу как к инженерной задаче.  
+*Stack: Docker, Grafana, Loki, Promtail, Python logging*
 
-### 🔹 AI Agent (CLI + Telegram)
-**Локальный AI-агент с системой инструментов**
+### 🔹 [AI Assistant Telegram Bot](https://github.com/RomanShe19/AI_Assistant_TGbot)
+**Проблема:** Пользователям нужен не просто чат с ИИ, а ассистент с памятью, ролями и мультимодальностью.  
+**Решение:** Бот с контекстной памятью, переключением ролей (developer/analyst/writer), генерацией изображений (DALL·E) и учётом токенов.  
+*Stack: aiogram 3.x, OpenAI API, SQLAlchemy, asyncpg*
 
-- Инструментальная архитектура: Web Search, Weather, Crypto, Files, Terminal, HTTP, QR
-- Контекстная память и логирование
-- Два интерфейса: CLI и Telegram-бот
-- Интеграция с OpenAI-совместимыми API через ProxyAPI
-
-➡️ https://github.com/RomanShe19/AI_Agent_with_tools
-
----
-
-### 🔹 AI Assistant Telegram Bot
-**Мультимодальный AI-ассистент для Telegram**
-
-- Диалог с памятью контекста
-- Режимы работы (разработчик, аналитик, помощник, писатель, учитель)
-- Генерация изображений (DALL·E)
-- Генерация видео (Sora)
-- Учёт токенов и стоимости запросов
-
-➡️ https://github.com/RomanShe19/AI_Assistant_TGbot
+> 💡 *Полный список проектов: [Repositories](https://github.com/RomanShe19?tab=repositories)*
 
 ---
 
-### 🔹 Parser + Telegram Bot
-**Асинхронная система парсинга с управлением через Telegram**
+## 🌟 Почему стоит рассмотреть мою кандидатуру
 
-- Парсинг сайтов с обходом антибот-защиты (Playwright, curl-cffi)
-- Telegram-интерфейс для управления, поиска и статистики
-- SQLite, логирование, Docker
-- Полностью async-архитектура
+| Отсутствие коммерции | Что я предлагаю взамен |
+|---------------------|------------------------|
+| Нет опыта в production | ✅ Проекты с архитектурой, приближенной к production: слои, конфиги, Docker, логирование |
+| Нет команды и код-ревью | ✅ Само-ревью через валидационные цепочки, тесты (pytest), статический анализ |
+| Нет ментора | ✅ Активное изучение best practices: PEP-8, type hints, SOLID-принципы, 12-factor app |
+| Нет дедлайнов | ✅ Дисциплина через публичные коммиты: 80+ contributions за год, регулярные обновления |
 
-➡️ https://github.com/RomanShe19/Parser
-
----
-
-### 🔹 Monitoring Stack (Grafana + Loki)
-**Система мониторинга и логирования**
-
-- Централизованный сбор логов
-- Визуализация через Grafana
-- Loki и Promtail
-- Изучение observability и метрик
-
-➡️ https://github.com/RomanShe19/monitoring
+**Мой подход — Vibecode:**  
+Это не «ИИ пишет код за меня». Это методология, где:
+- 🧠 **AI — ускоритель**, а не замена мышления: я контролирую архитектуру, бизнес-логику и безопасность
+- ⚡ **DX в приоритете**: чистый интерфейс, понятные ошибки, быстрая итерация
+- 🧱 **Код — это документация**: структура проекта рассказывает о логике без слов
+- 🔄 **Автоматизация рутины**: если задачу можно делегировать скрипту — я напишу его
 
 ---
 
-## 📦 Другие проекты
+## 📈 Текущий фокус развития
 
-- **Telegram Summary & Analytics** — сбор и анализ данных из Telegram (Telethon, AI, Mini App)
-- **Telegram Task Bot** — управление задачами через FSM-диалоги
-- **Crypto Alert Bot** — уведомления о курсах криптовалют
-- **Weather Bot / Weather App** — погодные сервисы (Telegram, CLI, консоль)
-- **Currency Tools** — конвертация валют (CLI, Travel Bot)
-- **Booking System** — мини-система бронирования (Tkinter)
-- **PostgreSQL Driver Project** — практика работы с PostgreSQL и SQL
-- **Time Server API** — FastAPI-сервис времени
-- **GitHub Actions Playground** — эксперименты с CI/CD
+- 🤖 Углубление в агентные архитектуры и multi-agent системы
+- ⚙️ Оптимизация async-приложений под высокие нагрузки
+- 🧪 Внедрение тестирования (unit/integration) в пет-проекты
+- 📦 Изучение Kubernetes и cloud-деплоя (AWS/GCP)
 
 ---
 
-## 📈 Текущий фокус
+## 📫 Давайте свяжемся
 
-- Проектирование AI-ассистентов и агентных систем
-- Интеграция LLM в backend-сервисы и инструменты автоматизации
-- Архитектура асинхронных Python-приложений
-- Документирование и упаковка технических решений
+Я открыт к предложениям о **стажировке** или позиции **Junior Python Developer**.
+
+| 📧 Email | [твой email] |
+|----------|--------------|
+| 💬 Telegram | [@твой_юзернейм] |
+| 💼 LinkedIn | [ссылка] |
+| 🐙 GitHub | [RomanShe19](https://github.com/RomanShe19) |
+
+> 🚀 *Готов выполнить тестовое задание или обсудить, как мой опыт может быть полезен вашей команде.*
 
 ---
 
-## 📫 Контакты
-
-- GitHub: https://github.com/RomanShe19
-
----
-
-## ⚠️ Примечание
-
-Проекты созданы в образовательных и демонстрационных целях и отражают практическую работу с современными инструментами backend-разработки и AI.
-
+<p align="center">
+  <i>⚡ Vibecode: чистый код, умные инструменты, быстрый результат.</i>
+</p>
