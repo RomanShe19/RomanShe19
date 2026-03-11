@@ -14,33 +14,40 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-🦜🔗-000000?style=flat" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-✅-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-✅-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-🔄-009639?style=flat&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" />
 </p>
 
 ---
 
 ## ⭐ Избранные проекты
 
-### 🔹 [AI Bot Generator](https://github.com/RomanShe19/telegram_bot_generator)
+### 🔹 [ClientOrder](https://github.com/RomanShe19/ClientOrder) `Full-Stack` `Production-Ready`
+**Проблема:** Большинство учебных проектов не учитывают ограничения реального сервера и требования к безопасности.  
+**Решение:** Самохостируемая платформа для приёма заказов с React + FastAPI, оптимизированная под **VPS с 1 ГБ RAM**. Реализованы: JWT-аутентификация, поведенческая аналитика (тепловые карты, клики), reverse proxy (Nginx), лимиты ресурсов на контейнеры, авто-деплой через Watchtower.  
+*Stack: FastAPI, React 18 + TS, PostgreSQL, Docker Compose, Nginx, SQLAlchemy 2 (async)*
+
+### 🔹 [AI Bot Generator](https://github.com/RomanShe19/telegram_bot_generator) `LangChain` `Code Generation`
 **Проблема:** Рутинная разработка типовых ботов отнимает время.  
 **Решение:** 5-этапный LLM-пайплайн на LangChain, который превращает текстовое ТЗ в готовый код на aiogram 3.x с валидацией синтаксиса и структуры.  
 *Stack: LangChain, ProxyAPI, aiogram 3.x, Pydantic*
 
-### 🔹 [AI Agent with Tools](https://github.com/RomanShe19/AI_Agent_with_tools)
+### 🔹 [AI Agent with Tools](https://github.com/RomanShe19/AI_Agent_with_tools) `Agents` `Function Calling`
 **Проблема:** Локальные AI-ассистенты часто ограничены «болтовней» без доступа к внешним данным.  
 **Решение:** Агент с системой инструментов (Web Search, Weather, Crypto, Files, Terminal) и двойным интерфейсом (CLI + Telegram). Реализована контекстная память и логирование действий.  
 *Stack: LangChain, OpenAI API, aiogram, duckduckgo-search*
 
-### 🔹 [Parser + Telegram Bot](https://github.com/RomanShe19/Parser)
+### 🔹 [Parser + Telegram Bot](https://github.com/RomanShe19/Parser) `Scraping` `Anti-Detect`
 **Проблема:** Сбор данных с сайтов, защищённых от ботов, требует обхода антидетект-механизмов.  
 **Решение:** Асинхронный парсер с `curl-cffi` и `Playwright` для эмуляции реального браузера. Управление и просмотр результатов — через Telegram-бота. Полная изоляция в Docker.  
 *Stack: asyncio, Playwright, curl-cffi, aiogram 3.x, SQLite, Docker*
 
-### 🔹 [Monitoring Stack](https://github.com/RomanShe19/monitoring)
+### 🔹 [Monitoring Stack](https://github.com/RomanShe19/monitoring) `DevOps` `Observability`
 **Проблема:** Понимание observability критично для production-разработки, но редко встречается в учебных проектах.  
 **Решение:** Развёрнутый стек Grafana + Loki + Promtail для сбора, визуализации и анализа логов. Демонстрирует подход к отладке и мониторингу как к инженерной задаче.  
 *Stack: Docker, Grafana, Loki, Promtail, Python logging*
@@ -54,14 +61,14 @@
 
 ---
 
-## 🌟 Почему стоит рассмотреть мою кандидатуру
+# 🌟 Почему стоит рассмотреть мою кандидатуру
 
 | Отсутствие коммерции | Что я предлагаю взамен |
 |---------------------|------------------------|
-| Нет опыта в production | ✅ Проекты с архитектурой, приближенной к production: слои, конфиги, Docker, логирование |
-| Нет команды и код-ревью | ✅ Само-ревью через валидационные цепочки, тесты (pytest), статический анализ |
-| Нет ментора | ✅ Активное изучение best practices: PEP-8, type hints, SOLID-принципы, 12-factor app |
-| Нет дедлайнов | ✅ Дисциплина через публичные коммиты: 80+ contributions за год, регулярные обновления |
+| Нет опыта в production | ✅ Проекты с архитектурой, приближенной к production: слои, конфиги, Docker, логирование, лимиты ресурсов |
+| Нет команды и код-ревью | ✅ Само-ревью через валидационные цепочки, тесты (pytest), статический анализ, чистые коммиты |
+| Нет ментора | ✅ Активное изучение best practices: PEP-8, type hints, SOLID-принципы, 12-factor app, JWT-безопасность |
+| Нет дедлайнов | ✅ Дисциплина через публичные коммиты: 80+ contributions за год, регулярные обновления, деплой-скрипты |
 
 **Мой подход — Vibecode:**  
 Это не «ИИ пишет код за меня». Это методология, где:
@@ -77,7 +84,7 @@
 - 🤖 Углубление в агентные архитектуры и multi-agent системы
 - ⚙️ Оптимизация async-приложений под высокие нагрузки
 - 🧪 Внедрение тестирования (unit/integration) в пет-проекты
-- 📦 Изучение Kubernetes и cloud-деплоя (AWS/GCP)
+- 📦 Изучение Kubernetes и cloud-деплой (AWS/GCP)
 
 ---
 
