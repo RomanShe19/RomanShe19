@@ -1,8 +1,8 @@
 # Roman Shemetov
 
-### Python Developer | Vibecode Methodology | AI & Automation
+### AI Project Manager | Technical Customer Success | AI Automation Engineer
 
-> 🎯 *Focused on intensive learning & pet-projects. Создаю backend-сервисы и AI-инструменты, где чистая архитектура встречается с практической пользой.*
+> 🎯 **Помогаю бизнесу внедрять AI и автоматизацию: от идеи до работающего продукта.**  
 
 ---
 
@@ -12,15 +12,29 @@
   <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/AsyncIO-✅-000000?style=flat" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-2.0-D71F00?style=flat&logo=sqlalchemy&logoColor=white" />
   <img src="https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-🦜🔗-000000?style=flat" />
+  <img src="https://img.shields.io/badge/OpenAI_API-✅-412991?style=flat&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-🔍-FF6B6B?style=flat" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-💡-FFD93D?style=flat" />
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-✅-3178C6?style=flat&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-✅-003B57?style=flat&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-✅-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker_Compose-✅-2496ED?style=flat" />
   <img src="https://img.shields.io/badge/Nginx-🔄-009639?style=flat&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-✅-000000?style=flat" />
+  <img src="https://img.shields.io/badge/JWT-🔐-000000?style=flat" />
+  <img src="https://img.shields.io/badge/1C_Integration-✅-FFCC00?style=flat" />
+  <img src="https://img.shields.io/badge/Mindbox-✅-0077CC?style=flat" />
+  <img src="https://img.shields.io/badge/iiko-✅-FF6B35?style=flat" />
+  <img src="https://img.shields.io/badge/R_Keeper-✅-00A651?style=flat" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Loki-🪵-3178C6?style=flat" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vibe_Coding-🎯-9333EA?style=flat" />
 </p>
 
 ---
@@ -61,21 +75,27 @@
 
 ---
 
-# 🌟 Почему стоит рассмотреть мою кандидатуру
+# 🌟 Чем я полезен вашему продукту
 
-| Отсутствие коммерции | Что я предлагаю взамен |
-|---------------------|------------------------|
-| Нет опыта в production | ✅ Проекты с архитектурой, приближенной к production: слои, конфиги, Docker, логирование, лимиты ресурсов |
-| Нет команды и код-ревью | ✅ Само-ревью через валидационные цепочки, тесты (pytest), статический анализ, чистые коммиты |
-| Нет ментора | ✅ Активное изучение best practices: PEP-8, type hints, SOLID-принципы, 12-factor app, JWT-безопасность |
-| Нет дедлайнов | ✅ Дисциплина через публичные коммиты: 80+ contributions за год, регулярные обновления, деплой-скрипты |
+| Роль | Как я создаю ценность |
+|------|----------------------|
+| **AI Project Manager** | Перевожу бизнес-задачу в ТЗ → управляю циклом разработки AI-фич → контролирую метрики внедрения (time-to-value, ROI, adoption). Говорю на одном языке с заказчиком и разработчиками. |
+| **Technical Customer Success** | Онбординг клиентов через технические интеграции, настраиваю автоматизации, обучаю команды, работаю с метриками успеха (NPS, LTV, retention). Понимаю код — могу быстро диагностировать и эскалировать проблемы. |
+| **AI Automation Engineer** | Прототипирую MVP на Python + LLM, строю RAG-пайплайны, автоматизирую рутину через ботов и API. Фокус на быструю проверку гипотез и измеримый результат. |
 
-**Мой подход — Vibecode:**  
-Это не «ИИ пишет код за меня». Это методология, где:
-- 🧠 **AI — ускоритель**, а не замена мышления: я контролирую архитектуру, бизнес-логику и безопасность
-- ⚡ **DX в приоритете**: чистый интерфейс, понятные ошибки, быстрая итерация
-- 🧱 **Код — это документация**: структура проекта рассказывает о логике без слов
-- 🔄 **Автоматизация рутины**: если задачу можно делегировать скрипту — я напишу его
+
+<p align="center">
+  <strong>🎯 Vibecode-подход</strong> • AI как рычаг, а не автопилот
+</p>
+<p align="center">
+  🧠 <b>AI PM:</b> архитектура и метрики под контролем • 
+  ⚡ <b>Tech CSM:</b> DX = быстрый TTV для клиента • 
+  🧱 <b>Automation:</b> код самодокументируем • 
+  🔄 <b>Все роли:</b> рутина автоматизируется по умолчанию
+</p>
+<p align="center">
+  <sub>Прототип → валидация → production: быстро, измеримо, масштабируемо</sub>
+</p>
 
 ---
 
@@ -90,13 +110,13 @@
 
 ## 📫 Давайте свяжемся
 
-Я открыт к предложениям о **стажировке** или позиции **Junior Python Developer**.
+Готов обсудить, как мой опыт в запуске 600+ внедрений и технические навыки в Python/AI могут помочь вашему продукту расти.
 
 | 📧 Email | [rabota.adsgroup@gmail.com] |
 |----------|--------------|
 | 🐙 GitHub | [RomanShe19](https://github.com/RomanShe19) |
 
-> 🚀 *Готов выполнить тестовое задание или обсудить, как мой опыт может быть полезен вашей команде.*
+> 💡 *"Моя цель — не просто написать код, а создать решение, которое измеряется в бизнес-метриках: выручка, удержание, эффективность."*
 
 ---
 
