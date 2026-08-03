@@ -1,6 +1,6 @@
 # Roman Shemetov
 
-### AI Implementation / Delivery Manager | Technical Customer Success / Solutions Engineer | AI Automation / Integration Engineer
+### Delivery/ Implementation / Project Manager | Technical Customer Success
 
 > 🎯 **Помогаю бизнесу доводить AI и автоматизацию до внедрения, интеграции и измеримого результата.**  
 
@@ -80,8 +80,8 @@
 | Роль | Как я создаю ценность |
 |------|----------------------|
 | **AI Implementation / Delivery Manager** | Беру на себя внедрение AI/tech-решения от discovery до go-live: координирую интеграции, управляю рисками запуска, держу в фокусе adoption, time-to-value и бизнес-результат. |
-| **Technical Customer Success / Solutions Engineer** | Помогаю клиенту быстро дойти до ценности через интеграции, onboarding, rollout и technical consulting. Могу сам разобрать API, найти ограничение и предложить рабочий путь внедрения. |
-| **AI Automation / Integration Engineer** | Собираю automation и integration MVP на Python, API и LLM-инструментах: быстро проверяю гипотезу, увязываю сервисы между собой и довожу до работающего сценария. |
+| **Technical Customer Success** | Помогаю клиенту быстро дойти до ценности через интеграции, onboarding, rollout и technical consulting. Могу сам разобрать API, найти ограничение и предложить рабочий путь внедрения. |
+| **AI Automation** | Собираю automation и integration MVP на Python, API и LLM-инструментах: быстро проверяю гипотезу, увязываю сервисы между собой и довожу до работающего сценария. |
 
 
 <p align="center">
@@ -110,7 +110,7 @@
 
 ## 📫 Давайте свяжемся
 
-Готов обсудить, как мой опыт в запуске 600+ внедрений и технические навыки в Python/AI могут помочь вашему продукту расти.
+Готов обсудить, как мой опыт в запуске клиентских внедрений и технические навыки в Python/AI могут помочь вашему продукту расти.
 
 | 📧 Email | [rabota.adsgroup@gmail.com] |
 |----------|--------------|
