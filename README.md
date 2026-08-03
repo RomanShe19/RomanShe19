@@ -1,6 +1,6 @@
 # Roman Shemetov
 
-### Delivery/ Implementation / Project Manager | Technical Customer Success
+### Delivery/ Implementation / Project Manager
 
 > 🎯 **Помогаю бизнесу доводить AI и автоматизацию до внедрения, интеграции и измеримого результата.**  
 
